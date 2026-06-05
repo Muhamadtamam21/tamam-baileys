@@ -103,5 +103,12 @@
     "homepage": "https://github.com/Muhamadtamam21/tamam-baileys",
     "repository": {
         "url": "https://github.com/Muhamadtamam21/tamam-baileys"
+    },
+    "exports": {
+        ".": {
+            "import": "./lib/index.mjs",
+            "require": "./lib/index.js",
+            "default": "./lib/index.js"
+        }
     }
 }
